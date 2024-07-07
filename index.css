@@ -1,0 +1,244 @@
+/*  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body {
+  background-color: #fafafa;
+}
+
+.main-wrapper {
+  background: linear-gradient(338deg, #000088 70%, #ff0066 50%);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px 0px 10px 0px;
+}
+
+.header-container li {
+  list-style-type: none;
+}
+.logo {
+  font-weight: 600;
+  font-size: 26px;
+}
+.header-container a {
+  text-decoration: none;
+  color: white;
+}
+.main-card-wrapper {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section-1-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  align-self: normal;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  background-color: white;
+  padding: 30px 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  align-self: normal;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  background-color: white;
+  padding: 30px 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  align-self: normal;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  background-color: white;
+  padding: 30px 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+  position: sticky;
+  top: 10px;
+}
+
+.text h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: #2f4468;
+  border-bottom: 2px solid;
+  border-color: #7643ff;
+}
+
+.image_content {
+  display: flex;
+  align-items: center;
+  margin: 25px;
+}
+
+.image img {
+  width: 320px;
+  border-radius: 10px;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.content {
+  padding-left: 15px;
+}
+
+.content p {
+  font-size: 16px;
+  line-height: 28px;
+  padding-bottom: 20px;
+}
+
+.content a {
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  text-decoration: none;
+  color: white;
+  padding: 10px 18px;
+  font-size: 14px;
+  border-radius: 30px;
+}
+
+.content a:hover {
+}
+
+.section-2 h3 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #2f4468;
+}
+.section-2 a {
+  font-size: 16px;
+  color: #4085e4;
+  padding-top: 10px;
+  text-decoration: none;
+  word-break: break-all;
+  line-height: 30px;
+}
+
+.section-2 a:hover {
+  text-decoration: underline;
+}
+
+.section-3 h3 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #2f4468;
+}
+.section-3 a {
+  font-size: 16px;
+  color: #4085e4;
+  padding-top: 10px;
+  text-decoration: none;
+  word-break: break-all;
+  line-height: 30px;
+}
+
+.section-3 a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+  .section-1-wrapper {
+    width: 100%;
+  }
+  .container-2 {
+    width: 100%;
+  }
+  .main-wrapper {
+    padding: 0px 15px 0px 15px;
+  }
+  .main-card-wrapper {
+    padding: 0px 15px 0px 15px;
+  }
+  .section-2 {
+    margin-left: 0px;
+  }
+  .section-3 {
+     margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .image_content {
+    flex-wrap: wrap;
+  }
+  .image img {
+    width: 100%;
+  }
+  .section-1 {
+    padding: 15px;
+  }
+  .text h2 {
+    font-size: 18px;
+  }
+  .content {
+    padding: 0px;
+  }
+  .content p {
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
+  .content a {
+    font-size: 12px;
+    padding: 5px 15px;
+  }
+  .section-2 h3 {
+    font-size: 18px;
+  }
+  .section-2 a {
+    font-size: 13px;
+    padding-top: 3px;
+  }
+  .section-3 h3 {
+    font-size: 18px;
+  }
+  .section-3 a {
+    font-size: 13px;
+    padding-top: 3px;
+  }
+}
